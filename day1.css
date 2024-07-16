@@ -1,0 +1,41 @@
+p{
+    background-color: aquamarine;
+    font-size: 20px;
+    text-align: justify;
+    text-transform: capitalize;
+    border-width: 10px;
+    border-style: groove;
+}
+
+h1{
+    font-size: 20px;
+    color: brown;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    text-align: center;
+    border-color: rgb(123, 222, 212);
+    border-width: 10px;
+    border-style:inset;
+}
+
+h2{
+    font-size: 20px;
+    color: darkmagenta;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: double;
+}
+h3{
+    font-size: 20px;
+    color: darkmagenta;
+    text-decoration: overline;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+#p1{
+    font-size: 30px;
+    color: blueviolet;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
