@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    img
+    {
+        padding: 10px;
+        margin-left: 60px;
+        margin-top: 100px;
+        -webkit-transition: width 2s, height 8s ,box-shadow 10s, transform 1s ,border 2s;
+
+
+    }
+
+    img:hover
+    {
+width: 200px;
+height: 200px;
+box-shadow: 0px 0px 10px 20px black;
+transform: rotate(2080deg);
+border: 5px dotted blue;
+    }
+
+    #d1{
+        height: 400px;
+        width: 300px;
+        background-color: blue;
+        transition: height 2s,width 2s,color 2s, border-radius 2s;
+    }
+    #d1:hover{
+        height: 200px;
+        width: 500px;
+        background-color: aquamarine;
+        border-radius: 50px;
+        
+    }
+    p{
+        text-align: center;
+        font-size: large;
+        color: brown;
+        border: 1px;
+        transition: color 2s, font-family 2s, font-size 2s, transform 2s;
+    }
+    p:hover{
+        color: rgb(60, 191, 243);
+        font-family: 'Arial Narrow Bold';
+        font-size: xx-large;
+        transform: rotate(360deg);
+    }
+
+
+    #d2
+    {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        -webkit-animation: animation 5s infinite;
+
+    }
+
+    #d3
+    {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        border: 2px solid red;
+        -webkit-animation: ani1 10s;
+        animation-iteration-count: 3;
+
+    }
+
+    #img1
+    {
+        -webkit-animation:ani2 3s ;
+        position: relative;
+    }
+
+    @-webkit-keyframes animation
+    {
+        20%{background-color: brown; margin-left: 300px; border-radius: 50px;}
+        40%{background-color: rgb(14, 14, 14); margin-left: 500px; border-radius: 0px;}
+        60%{background-color: rgb(240, 244, 187); margin-left: 700px; border-radius: 50px;}
+        20%{background-color: rgb(41, 179, 108); margin-left: 900px; border-radius: 50px;}
+    }
+
+
+    @-webkit-keyframes ani1
+    {
+        0%{
+            background:url('11.jpeg');}
+        20%{
+            background:url('5.jpg');}
+        60%{
+            background:url('2.jpeg');}
+        80%{
+            background: url('5.jpg');}
+        100%{
+            background: url('7.jpeg');}
+    }
+
+    @-webkit-keyframes ani2
+    {
+        20%
+        {-webkit-transform:rotate(1080deg);left:240px; top:300px;}
+        40%
+        {-webkit-transform:rotate(0deg);left:480px; top:0px;}
+        60%
+        {-webkit-transform:rotate(1080deg);left:720px; top:300px;}
+        80%
+        {-webkit-transform:rotate(0deg);left:860px; top:0px;}
+    }
+</style>
+</head>
+<body>
+ 
+    
+<!-- 
+<img src="1.jpeg"  height="100px" width="100px">
+<img src="2.jpeg"  height="100px" width="100px">
+<img src="6.jpg"  height="100px" width="100px">
+<img src="7.jpeg"   height="100px" width="100px"> -->
+
+<!-- 
+<div id="d1"> -->
+    
+</div>
+<p>Welcome to TKA!!!</p>
+</div>
+
+
+<div id="d2"></div>
+<div id="d3"></div>
+
+<img id="img1" src="1.jpeg">
+
+</body>
+</html>
